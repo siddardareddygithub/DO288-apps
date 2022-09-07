@@ -13,6 +13,7 @@ public class ServerHostEndPoint {
   @Produces("text/plain")
   public Response doGet() {
     String host = "";
+    String ip = "";
     try {
       host = InetAddress.getLocalHost().getHostName();
       ip=InetAddress.getHostName();
