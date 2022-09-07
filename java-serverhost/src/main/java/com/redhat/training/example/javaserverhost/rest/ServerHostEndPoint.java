@@ -16,7 +16,7 @@ public class ServerHostEndPoint {
     String ip = "";
     try {
       host = InetAddress.getLocalHost().getHostName();
-      ip=InetAddress.getByName(host).getHostAddress();); 
+      ip=InetAddress.getByName(host).getHostAddress(); 
     }
     catch (Exception e) {
        e.printStackTrace();
